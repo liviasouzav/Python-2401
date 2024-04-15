@@ -1,0 +1,6 @@
+livia=21
+guilherme=19
+felipe=19
+media = (livia+guilherme+felipe)/3
+print('media eh'+ str(media+1))
+print ('Hello, World')

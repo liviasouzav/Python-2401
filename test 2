@@ -1,0 +1,10 @@
+palavras = ["cabelo","arroz","feijao","amor"]
+x = 'a'
+# [0]
+resposta = []
+
+# Para cada `palavra` em `palavras`, adiciona posicao em resultado
+for i in range(len(palavras)):
+    if x in palavras[i]:
+        resposta.append(i)
+print(resposta)
